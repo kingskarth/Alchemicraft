@@ -8,9 +8,9 @@ public class AmmoniumNitrate extends Item {
 	public AmmoniumNitrate(int id) 
 	{
 		super(id);
-		setCreativeTab(CreativeTabs.tabMaterials);
-		setMaxStackSize(64);
-		setUnlocalizedName("Ammonium Nitrate");
+		this.setCreativeTab(CreativeTabs.tabMaterials);
+		this.setMaxStackSize(64);
+		this.setUnlocalizedName("Ammonium Nitrate");
 	}
 
 }

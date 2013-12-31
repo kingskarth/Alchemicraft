@@ -1,19 +1,16 @@
 package alchemicraft;
 
-import cpw.mods.fml.relauncher.Side;
-import cpw.mods.fml.relauncher.SideOnly;
 import net.minecraft.client.renderer.texture.IconRegister;
 import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.item.Item;
 
-public class PhilosopherStone extends Item
-{
+public class Handle extends Item {
 
-	public PhilosopherStone(int id) 
+	public Handle(int id) 
 	{
 		super(id);
-		this.setMaxStackSize(1);
+		this.setMaxStackSize(64);
 		this.setCreativeTab(CreativeTabs.tabMaterials);
-		this.setUnlocalizedName("Philosopher Stone");
+		this.setUnlocalizedName("Handle");
 	}
 }
